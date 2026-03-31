@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Komputasi Awan - Praktik PaaS & CI/CD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased min-h-screen flex items-center justify-center p-6">
+
+    <div class="max-w-3xl w-full bg-white shadow-xl rounded-2xl overflow-hidden border border-gray-100">
+
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-700 p-8 text-center text-white">
+            <h1 class="text-3xl font-extrabold mb-2 tracking-tight">Pembuktian PaaS & Otomatisasi CI/CD</h1>
+            <p class="text-blue-100 font-medium text-lg">Mata Kuliah: Komputasi Awan</p>
+            <p class="text-blue-200 text-sm mt-1">Universitas Lambung Mangkurat</p>
+        </div>
+
+        <div class="p-8">
+
+            <div class="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
+                <h2 class="text-lg font-bold text-blue-900 mb-3 border-b border-blue-200 pb-2">Informasi Mahasiswa</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-blue-800">
+                    <p><strong>Nama:</strong> Raudatul Sholehah</p>
+                    <p><strong>Program Studi:</strong> Teknologi Informasi</p>
+                    <p><strong>Semester:</strong> 6</p>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                    <svg class="w-6 h-6 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Status Implementasi
+                </h2>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <span
+                            class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full border-2 border-indigo-600 text-indigo-600 font-bold text-xs mr-3">1</span>
+                        <p class="text-gray-600"><strong class="text-gray-800">GitHub Repository:</strong> Kode sumber
+                            dikelola secara terpusat menggunakan version control system (Git).</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span
+                            class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full border-2 border-indigo-600 text-indigo-600 font-bold text-xs mr-3">2</span>
+                        <p class="text-gray-600"><strong class="text-gray-800">Platform as a Service (Vercel):</strong>
+                            Vercel menyediakan infrastruktur komputasi awan secara instan tanpa konfigurasi server
+                            manual (Serverless).</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span
+                            class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full border-2 border-indigo-600 text-indigo-600 font-bold text-xs mr-3">3</span>
+                        <p class="text-gray-600"><strong class="text-gray-800">Otomatisasi (CI/CD):</strong> Webhook
+                            aktif. Setiap kali perintah <code
+                                class="bg-gray-100 text-red-500 px-1 py-0.5 rounded text-sm">git push</code> dieksekusi
+                            ke branch utama, Vercel secara otomatis mendeteksi perubahan, melakukan *build*, dan
+                            memperbarui tampilan web publik ini secara real-time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <p class="text-sm text-gray-500 mb-1">Versi Aplikasi Saat Ini</p>
+                <p class="text-2xl font-black text-indigo-600">v2.0 (Updated)</p>
+                <p class="text-xs text-gray-400 mt-2">Pembaruan ini membuktikan pipeline CI/CD berjalan sukses.</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
